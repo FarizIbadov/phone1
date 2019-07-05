@@ -256,7 +256,7 @@ input[type=submit] {
   nav{
     margin:5% 0;
     height: 20px;
-    width:93%;
+    width:85%;
   }
 
   nav > a{
@@ -301,31 +301,78 @@ input[type=submit] {
     font-size:0.8em;
     width:100%;
   }
+
+  .work{
+    width:100%;
+  }
 }
 
-@media screen and (min-width:641px) and (max-width:768){
-
-}
-
-@media screen and (min-width:769px) and (max-width:980px){
-  #main-container{
-    width:55%;
-    margin-right:38%;
+@media screen and (min-width:641px) and (max-width:768px){
+ 
+  .sidebar{
+    max-width: 100%;
+    width:100%;
+  }
+  .main-section{
+    width:100%;
+    
   }
 
-  .sidebar{
-    position: relative;
-    left:63%;
-    bottom:618px;
-    width:58%;
+  #main-container{
+    width:85%;
+   
+    margin: 0 auto;
+  }
+
+  .main-section > img{
+    width:50%;
   }
 
   nav{
     margin-right:5%;
   }
 
+  #logo{
+    margin-left:5%;
+  }
+  
+  .work{
+    width:45%;
+  }
 
+}
 
+@media screen and (min-width:769px) and (max-width:980px){
+  #main-container{
+    width:90%;
+    margin:0 auto;
+  }
+
+  .sidebar{
+
+    width:40%;
+  
+  }
+
+  nav{
+    margin-right:5%;
+  }
+
+  .main-section{
+    width:55%;
+  }
+
+  .main-section > img{
+    width:100%;
+  }
+
+  #logo{
+    margin-left:5%;
+  }
+
+  .work{
+    width:100%;
+  }
 }
 
 
